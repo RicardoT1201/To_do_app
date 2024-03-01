@@ -3,12 +3,9 @@ package com.example.todoapp.activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.to_do_app.data.Task
-import com.example.to_do_app.data.providers.TaskDAO
-import com.example.todoapp.utils.DatabaseManager
-import com.example.todoapp.R
 import com.example.todoapp.data.Task
 import com.example.todoapp.data.providers.TaskDAO
+import com.example.todoapp.R
 
 class MainActivity : AppCompatActivity() {
 
