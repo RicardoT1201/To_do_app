@@ -19,7 +19,3 @@ class Task (var id: Int, var task: String, var done: Boolean) {
         return "$id -> Task: $task - $done"
     }
 }
-
-class Task {
-
-}

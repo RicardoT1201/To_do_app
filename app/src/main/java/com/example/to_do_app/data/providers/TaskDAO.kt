@@ -8,28 +8,6 @@ import com.example.todoapp.data.Task
 import com.example.todoapp.utils.DatabaseManager
 
 class TaskDAO (context: Context) {
-    fun insert(task: Task): Task {
-
-    }
-
-    fun findAll(): Any {
-
-    }
-
-    fun find(i: Int): Task? {
-
-    }
-
-    fun update(task2: Task) {
-
-    }
-
-    fun delete(task2: Task) {
-
-    }
-}
-
-class TaskDAO (context: Context){
 
     private var databaseManager: DatabaseManager = DatabaseManager(context)
 
@@ -115,6 +93,7 @@ class TaskDAO (context: Context){
             null,                   // don't group the rows
             null,                   // don't filter by row groups
             null               // The sort order
+
         )
 
         var list: MutableList<Task> = mutableListOf()
@@ -136,4 +115,5 @@ class TaskDAO (context: Context){
     }
 
 }
+
 
