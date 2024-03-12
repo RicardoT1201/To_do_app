@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">To_do_app</string>
+    <string name="checkbox" />
 </resources>
